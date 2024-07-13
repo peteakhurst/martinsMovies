@@ -1,9 +1,35 @@
-# React + Vite
+# Martin's Movies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Martin's Movies is a React application that allows users to browse and search for movies, mark them as watched, and view details about each movie. The application uses The Movie Database (TMDB) API to fetch movie data.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# martinsMovies
+- Paginated listing of movies
+- Search movies by keyword
+- Mark movies as watched (persists across browser sessions)
+- Display movie genres (first two genres)
+- Link to IMDB page if available
+- Responsive design using TailwindCSS
+
+## Demo
+
+A live demo of the application can be found [here](#).
+
+## Installation
+
+To get started with the project, clone the repository and install the dependencies.
+
+```bash
+git clone https://github.com/yourusername/martins-movies.git
+cd martins-movies
+npm install
+```
+
+## Create a .env file in the root directory and add your TMDB API key. 
+
+```VITE_TMDB_API_KEY=your_tmdb_api_key_here``` 
+
+## Running the Application
+
+To run the application locally, use the following command:
+```npm run dev```

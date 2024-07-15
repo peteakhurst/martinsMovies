@@ -11,10 +11,6 @@ Martin's Movies is a React application that allows users to browse and search fo
 - Link to IMDB page if available
 - Responsive design using TailwindCSS
 
-## Demo
-
-A live demo of the application can be found [here](#).
-
 ## Installation
 
 To get started with the project, clone the repository and install the dependencies.
